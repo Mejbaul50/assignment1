@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.banner{
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-image: url('resources/Banner\ Image.png'); 
+    border-radius: 16px;
+    
+}
+ .row{ 
+    margin-top: 50px;
+    text-align: center;
+   
+}
+ .greeting>h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 170px;
+}
+
+.celebration>h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+    width: 632px;
+    height: 190px;
+    padding-left: 350px;
+} 
+/* discount section */
+.offer{
+    width: 802px;
+    height: 806px;
+    background: #FFF;
+    margin: 120px auto;
+}
+.offer h4{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.offer h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.offer img{
+    width: 802.9px;
+    height: 500px;
+    position: relative;
+    transform: translate(-80%);
+}
+
+.offer .text h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}   
+   
+.pic, .new-year img{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-top: 45px;
+    margin-left: 650px;
+} 
+/* section2 */
+.container1{
+    width: 90%;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.banner1{
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-image: url('resources/Vectorrr.png'); 
+    border-radius: 16px;
+   
+    
+}
+ .row1{ 
+    margin-top: 50px;
+    text-align: center;
+   
+}
+ .greeting1>h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    display: flex;
+    padding: 150px 400px 10px 90px;
+    text-align: left;
+  
+
+}
+.greeting1, .greeting2{
+    width: 50%;
+    float: left;
+}
+
+ .celebration1>p{ 
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 697px;
+    display: flex;
+    padding:10px 30px 10px 80px ;   
+    text-align: left; 
+
+} 
+.greeting2 img{
+    width: 300px;
+    margin-top: 80px;
+}
+.join{
+    color: #FFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+
+} 
+.time{
+   
+    width: 1320px;
+    height: 400px;
+    background-color: bisque;
+    border-radius: 16px;
+    margin: 120px auto;
+    padding-top:120px ;
+    
+}
+.pdt{
+    text-align: center;
+}
+.description{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+   
+}
+span{
+    color: #F00;
+}
+.btn{
+ width: 140px;
+ height: 50px;
+ border-radius: 8px;
+background: #F00;
+color: #FFF;
+border: none;
+font-family: Inter;
+font-size: 15px;
+font-weight: 300;
+text-transform: uppercase;
+margin-top: 20px;
+
+}      
+
+.best{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    margin: 120px auto;
+    display: flex;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.best .part1 h3{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+
+}
+.best .part1 h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+.best .part1 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 30px; 
+
+}
+.part2{
+    margin: 0px auto;
+}
+.part2 img{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49px;
+    
+}
+
+
+.best .part3 h1{
+    color: #F00;
+    font-family:Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+.best .part3 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size:20px;
+    font-weight: 250;
+    line-height: 30px;
+    margin-bottom: 43px;
+}  
+.best .part3 img{
+    width: 140px;
+    height: 140px;
+}
+
