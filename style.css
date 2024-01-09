@@ -201,7 +201,10 @@ font-weight: 300;
 text-transform: uppercase;
 margin-top: 20px;
 
-}      
+}  
+.btn:hover{
+    opacity: .5;
+}    
 
 .best{
     width: 1320px;
@@ -271,44 +274,7 @@ margin-top: 20px;
     width: 140px;
     height: 140px;
 }
-/* dicount section */
-/* .discount{
-    width: 900px;
-    height: 600px;
-    border: 1px solid;
-    margin: 120px auto;
-    padding-top:120px ;
-}
-.sale{
-    text-align: center;
-   
-}
-.sale h4{
-    color: #070211;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 20;
-    
-}
-.sale h1{
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 60px;
-    font-weight: 900;
-  
-}
-.sale p{
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-}
-.gift-box .pic1{
-    width: 900px; 
-    margin-top: 315px;
-} */
+/* sale section */
 
 .discount-container {
     width: 1320px;
@@ -522,4 +488,93 @@ margin-top: 20px;
     font-weight: 600;
     text-transform: capitalize;
 }
+#btn:hover{
+    opacity: .5;
+}
+/* footer section */
+.footer-part {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin: 120px auto;
+    position: relative;
+}
 
+.place {
+    position: absolute;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.phn{
+    position: absolute;
+    height: 80px;
+    width: 251px;
+    margin-top: 120px;
+    margin-left: 1074px;
+}
+
+.phn a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.media hr{
+    position: absolute;
+    width: 1320px;
+    height: 0px;
+    background: rgba(0, 0, 0, 0.089);
+    margin: 250px 140px;
+}
+.last{
+    position: absolute;
+    width: 1320px;
+    height: 0px;
+    background: rgba(0, 0, 0, 0.15);
+    margin: 401px 140px;
+}
+
+.logo {
+    height: 64px;
+    width: 328px;
+    position: absolute;
+    margin-top: 296px;
+    margin-left: 640px;
+    display: flex;
+    gap: 24px;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+}
+
+.copyright p {
+    position: absolute;
+    transform: translate(47%, 1500%);
+    
+}
+
+.copyright button {
+    position: absolute;
+    color: #FFF;
+    background-color: #070211;
+    border: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    transform: translate(890%,1480%);
+    
+}
